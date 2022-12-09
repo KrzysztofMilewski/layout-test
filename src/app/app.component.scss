@@ -1,0 +1,22 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+mat-sidenav{
+  width: 100px;
+
+  &.expanded{
+    width: 200px;
+  }
+
+  transition: width 250ms;
+}
+
+mat-sidenav-content{
+  transition: margin-left 250ms;
+}
